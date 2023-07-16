@@ -11,6 +11,7 @@ html {
 
 .container {
   max-width: 980px;
+  margin: 0 auto;
   padding: 0 4.5rem;
 }
 
@@ -501,7 +502,7 @@ header .nav_menu.show {
   padding: 0.8rem;
   background-color: #1dc99b;
   border-radius: 50%;
-  display: block;
+  display: none;
 }
 
 .scroll_up.show {
@@ -517,7 +518,9 @@ header .nav_menu.show {
     display: none;
   }
   .container {
-    padding: 0 1rem;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
   .nav_menu {
     position: fixed;
@@ -542,15 +545,15 @@ header .nav_menu.show {
   }
   .nav .container .hamburger {
     display: block;
-    margin-right: 1rem;
+    margin-right: 5rem;
   }
   .hero .hero_content {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  .hero .hero_content img {
+  .hero .hero_content .header_img {
     margin-top: 1rem;
-    width: 350px;
+    width: 300px;
     position: absolute;
     top: 0rem;
     left: 0;
@@ -564,6 +567,9 @@ header .nav_menu.show {
   .hero .hero_content .hero_detail .hero_subtitle {
     font-size: 1rem;
     text-align: center;
+  }
+  .hero .frame {
+    width: 250px;
   }
   .service {
     padding-top: 6rem;
