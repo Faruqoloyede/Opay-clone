@@ -1,0 +1,7 @@
+colors{
+    white-color: #ffffff;
+    green-color: #1dc99b;
+    text-color: #a2adb9;
+    header-color:#3c2d74;
+    head
+}
